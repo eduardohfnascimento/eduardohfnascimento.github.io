@@ -1,0 +1,227 @@
+<div id="page-content">
+	<div id="content-navigation" style="display:flex">
+		<a href="#" onclick="loadContent('pithagoras_theorem.html')" style="display: inline-block; width: 50%; text-decoration: none">
+			<div id="prev-navigation" style="display: inline-block; width: 50%;">
+				<i class="fa fa-caret-left"></i>
+				<span>Página anterior</span>
+			</div>
+		</a>
+	</div>
+
+	<div style="width: 100%; background: #2196F3; border-radius: 5px;">
+		<h2 style="padding-left: 5%; font-family: Verdana,sans-serif; color: white">
+			Questões práticas
+		</h2>
+	</div>
+
+	<p>
+		A seguir temos algmuas questões práticas para testar o que você aprendeu durante esta leitura! Sinta-se a vontade para retornar às seções anteriores e revisar o conteúdo ou utilizar os triângulos interativos!.
+	</p>
+
+	<div>
+		<h3>Questão 1</h3>
+		<p>
+			Um menino avista o ponto mais alto de um morro, conforme figura abaixo. Considerando que ele está a uma distância de 500 m da base do morro, calcule a altura (h) deste ponto.
+		</p>
+		<div>
+			<center>
+				<image src="images/question_1.webp" style="padding: 5px; width: 80%; height: auto"/>
+			</center>
+		</div>
+		<div>
+			<center>
+				<caption><a href="https://www.todamateria.com.br/exercicios-trigonometria/">Fonte da questão</a></caption>
+			</center>
+		</div>
+
+		<p>
+			Resposta:
+		</p>
+
+		<div>
+			<input type="radio" id="question_1_a" name="question_1">
+			<label for="question_1_a">120m</label><br/>
+			<input type="radio" id="question_1_b" name="question_1">
+			<label for="question_1_b">181,3m</label><br/>
+			<input type="radio" id="question_1_c" name="question_1">
+			<label for="question_1_c">210,8m</label><br/>
+			<input type="radio" id="question_1_d" name="question_1">
+			<label for="question_1_d">150,2m</label><br/>
+			<input type="radio" id="question_1_e" name="question_1">
+			<label for="question_1_e">190m</label><br/>
+		</div>
+
+		<center>
+			<input type="button" 
+				value="Verificar a resposta"
+				onclick="
+					if (document.getElementById('question_1_b').checked) {
+						document.getElementById('question_1_correct').style.display = 'block'
+						document.getElementById('question_1_incorrect').style.display = 'none'
+					} else {
+						document.getElementById('question_1_correct').style.display = 'none'			
+						document.getElementById('question_1_incorrect').style.display = 'block'
+					}
+				"
+				style="
+					background-color: #f9f7f7cf;
+					border: 1px solid #00b7ff;
+					border-radius: 11px;
+					padding: 5px 20px;
+					margin-bottom: 5px;"
+			>
+			<br/>
+		</center>
+
+		<div id="page-movement-warning" style="text-align: center;">
+			<div id="question_1_correct" style="display: none; border-style: solid; border-width: 2px;border-image: linear-gradient(to left, rgba(0, 0, 0, 0), #44c409, rgba(0, 0, 0, 0)) 1; padding: 3px 5px;">
+				<span>Sua resposta está correta!</span>
+			</div>
+
+			<div id="question_1_incorrect" style="display: none; border-style: solid; border-width: 2px;border-image: linear-gradient(to left, rgba(0, 0, 0, 0), #ff4c4ce3, rgba(0, 0, 0, 0)) 1; padding: 3px 5px;">
+				<span>Sua resposta está incorreta!</span>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<h3>Questão 2</h3>
+		<p>
+			O triângulo isósceles é um tipo de triângulo que possui dois lados iguais e, consequentemente, dois ângulos iguais formados com a base. Observe a figura abaixo e determine a medida dos lados congruentes deste triângulo.
+		</p>
+		<div>
+			<center>
+				<image src="images/question_2.webp" style="padding: 5px; width: 80%; height: auto"/>
+			</center>
+		</div>
+		<div>
+			<center>
+				<caption><a href="https://www.todamateria.com.br/exercicios-trigonometria/">Fonte da questão</a></caption>
+			</center>
+		</div>
+
+		<p>
+			Resposta:
+		</p>
+
+		<div>
+			<input type="radio" id="question_2_a" name="question_2">
+			<label for="question_2_a">3&radic;2</label><br/>
+			<input type="radio" id="question_2_b" name="question_2">
+			<label for="question_2_b">3&radic;5</label><br/>
+			<input type="radio" id="question_2_c" name="question_2">
+			<label for="question_2_c">6</label><br/>
+			<input type="radio" id="question_2_d" name="question_2">
+			<label for="question_2_d">2&radic;3</label><br/>
+			<input type="radio" id="question_2_e" name="question_2">
+			<label for="question_2_e">7</label><br/>
+		</div>
+
+		<center>
+			<input type="button" 
+				value="Verificar a resposta"
+				onclick="
+					if (document.getElementById('question_2_d').checked) {
+						document.getElementById('question_2_correct').style.display = 'block'
+						document.getElementById('question_2_incorrect').style.display = 'none'
+					} else {
+						document.getElementById('question_2_correct').style.display = 'none'			
+						document.getElementById('question_2_incorrect').style.display = 'block'
+					}
+				"
+				style="
+					background-color: #f9f7f7cf;
+					border: 1px solid #00b7ff;
+					border-radius: 11px;
+					padding: 5px 20px;
+					margin-bottom: 5px;"
+			>
+			<br/>
+		</center>
+
+		<div id="page-movement-warning" style="text-align: center;">
+			<div id="question_2_correct" style="display: none; border-style: solid; border-width: 2px;border-image: linear-gradient(to left, rgba(0, 0, 0, 0), #44c409, rgba(0, 0, 0, 0)) 1; padding: 3px 5px;">
+				<span>Sua resposta está correta!</span>
+			</div>
+
+			<div id="question_2_incorrect" style="display: none; border-style: solid; border-width: 2px;border-image: linear-gradient(to left, rgba(0, 0, 0, 0), #ff4c4ce3, rgba(0, 0, 0, 0)) 1; padding: 3px 5px;">
+				<span>Sua resposta está incorreta!</span>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<h3>Questão 3</h3>
+		<p>
+			Um carro se desloca por uma rampa inclinada. Essa rampa possui 60 metros de comprimento e altura máxima de 10 metros, conforme a imagem. Qual a distância entre A e B?
+		</p>
+		<div>
+			<center>
+				<image src="images/question_3.webp" style="padding: 5px; width: 80%; height: auto"/>
+			</center>
+		</div>
+		<div>
+			<center>
+				<caption><a href="https://exercicios.brasilescola.uol.com.br/exercicios-matematica/exercicios-sobre-teorema-pitagoras.htm">Fonte da questão</a></caption>
+			</center>
+		</div>
+
+		<p>
+			Resposta:
+		</p>
+
+		<div>
+			<input type="radio" id="question_3_a" name="question_3">
+			<label for="question_3_a">&radic;2500</label><br/>
+			<input type="radio" id="question_3_b" name="question_3">
+			<label for="question_3_b">60,2</label><br/>
+			<input type="radio" id="question_3_c" name="question_3">
+			<label for="question_3_c">&radic;4200</label><br/>
+			<input type="radio" id="question_3_d" name="question_3">
+			<label for="question_3_d">75</label><br/>
+			<input type="radio" id="question_3_e" name="question_3">
+			<label for="question_3_e">&radic;3500</label><br/>
+		</div>
+
+		<center>
+			<input type="button" 
+				value="Verificar a resposta"
+				onclick="
+					if (document.getElementById('question_3_e').checked) {
+						document.getElementById('question_3_correct').style.display = 'block'
+						document.getElementById('question_3_incorrect').style.display = 'none'
+					} else {
+						document.getElementById('question_3_correct').style.display = 'none'			
+						document.getElementById('question_3_incorrect').style.display = 'block'
+					}
+				"
+				style="
+					background-color: #f9f7f7cf;
+					border: 1px solid #00b7ff;
+					border-radius: 11px;
+					padding: 5px 20px;
+					margin-bottom: 5px;"
+			>
+			<br/>
+		</center>
+
+		<div id="page-movement-warning" style="text-align: center;">
+			<div id="question_3_correct" style="display: none; border-style: solid; border-width: 2px;border-image: linear-gradient(to left, rgba(0, 0, 0, 0), #44c409, rgba(0, 0, 0, 0)) 1; padding: 3px 5px;">
+				<span>Sua resposta está correta!</span>
+			</div>
+
+			<div id="question_3_incorrect" style="display: none; border-style: solid; border-width: 2px;border-image: linear-gradient(to left, rgba(0, 0, 0, 0), #ff4c4ce3, rgba(0, 0, 0, 0)) 1; padding: 3px 5px;">
+				<span>Sua resposta está incorreta!</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="content-navigation" style="display:flex">
+		<a href="#" onclick="loadContent('pithagoras_theorem.html')" style="display: inline-block; width: 50%; text-decoration: none">
+			<div id="prev-navigation" style="display: inline-block; width: 50%;">
+				<i class="fa fa-caret-left"></i>
+				<span>Página anterior</span>
+			</div>
+		</a>
+	</div>
+</div>
