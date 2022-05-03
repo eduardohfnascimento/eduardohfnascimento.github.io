@@ -108,13 +108,13 @@ function loadContent(pageName) {
 $( document ).ready(function() {
   loadContent('inicio.html')
 });
-var arrey = ['whey.html', 'Panqueca.html']
+var arrey = ['whey.html', 'Panqueca.html', 'crepioca.html']
 var counter = 0;
 function content() {
   loadContent(arrey[counter])
   counter +=1;
 }
-setInterval( content(arrey), 1000);
+setInterval( content(arrey), 5000);
 </script>
 
 </body>
