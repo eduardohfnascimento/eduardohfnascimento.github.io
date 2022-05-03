@@ -24,19 +24,18 @@ body {font-size:16px;}
     <h3 class="w3-padding-64"><b>Alimentação<br>&<br>Suplementação</b></h3>
   </div>
   <div class="w3-bar-block">
+    <a href="#inicio" onclick="loadContent('inicio.html')" class="w3-bar-item w3-button w3-hover-white">Inicio</a> 
     <div class="w3-dropdown-hover">
       <button href="#Suplementos" onclick="loadContent('suplementos.html')" class="w3-button w3-hover-white" >Suplementos</button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hover-white">
         <a href="#" onclick="loadContent('whey.html')" class="w3-bar-item w3-button w3-hover-white">Whey</a>
-        <a href="#Creatina" class="w3-bar-item w3-button w3-hover-white">Creatina</a>
-        <a href="#Multivitaminico" class="w3-bar-item w3-button w3-hover-white">Multivitaminico</a>
-        <a href="#Albumina" class="w3-bar-item w3-button w3-hover-white">Albumina</a>
+        <a href="#Creatina" onclick="loadContent('creatina.html')" class="w3-bar-item w3-button w3-hover-white">Creatina</a>
+        <a href="#Multivitaminico" onclick="loadContent('multivitaminico.html')" class="w3-bar-item w3-button w3-hover-white">Multivitaminico</a>
+        <a href="#Albumina" onclick="loadContent('albumina.html')" class="w3-bar-item w3-button w3-hover-white">Albumina</a>
       </div>
     </div>
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a href="#Receitas" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Receitas</a> 
+    <a href="#Exercicios" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Exercicios</a> 
   </div>
 </nav>
 
@@ -214,7 +213,7 @@ function loadContent(pageName) {
     $('#Suplementos').load('pages/' + pageName + ' #page-content')
 }
 $( document ).ready(function() {
-  loadContent('suplementos.html')
+  loadContent('inicio.html')
 });
 </script>
 
