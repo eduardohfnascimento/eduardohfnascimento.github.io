@@ -46,10 +46,9 @@ body {font-size:16px;}
     <div class="w3-dropdown-hover">
       <button href="#Exercicios" onclick="loadContent('suplementos.html')" class="w3-button w3-hover-white" >Exercicios</button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hover-white">
-        <a href="#" onclick="loadContent('Bolo.html')" class="w3-bar-item w3-button w3-hover-white">Supino Reto</a>
-        <a href="#" onclick="loadContent('crepioca.html')" class="w3-bar-item w3-button w3-hover-white">Supino Inclinado</a>
-        <a href="#" onclick="loadContent('iogurte.html')" class="w3-bar-item w3-button w3-hover-white">Agachamento</a>
-        <a href="#" onclick="loadContent('Panqueca.html')" class="w3-bar-item w3-button w3-hover-white">Triceps Corda</a>
+        <a href="#" onclick="loadContent('SupinoReto.html')" class="w3-bar-item w3-button w3-hover-white">Supino Reto</a>
+        <a href="#" onclick="loadContent('Agachamento.html')" class="w3-bar-item w3-button w3-hover-white">Agachamento</a>
+        <a href="#" onclick="loadContent('tricepscorda.html')" class="w3-bar-item w3-button w3-hover-white">Triceps Corda</a>
       </div>
     </div>
   </div>
@@ -108,13 +107,6 @@ function loadContent(pageName) {
 $( document ).ready(function() {
   loadContent('inicio.html')
 });
-var arrey = ['whey.html', 'Panqueca.html', 'crepioca.html']
-var counter = 0;
-function content() {
-  loadContent(arrey[counter])
-  counter +=1;
-}
-setInterval( content(arrey), 5000);
 </script>
 
 </body>
